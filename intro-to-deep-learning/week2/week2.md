@@ -158,6 +158,120 @@
 
 ![](image_73.jpg)
 
-## Optional reading on matrix derivatives
+### Optional reading on matrix derivatives
 * https://compsci697l.github.io/docs/vecDerivs.pdf
 * https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
+
+## TensorFlow framework
+### What is TensorFlow 
+
+![](image_74.jpg)
+
+![](image_75.jpg)
+
+![](image_76.jpg)
+
+![](image_77.jpg)
+
+![](image_78.jpg)
+
+![](image_79.jpg)
+
+![](image_80.jpg)
+
+![](image_81.jpg)
+
+![](image_82.jpg)
+
+![](image_83.jpg)
+
+![](image_84.jpg)
+
+![](image_85.jpg)
+
+![](image_86.jpg)
+
+![](image_87.jpg)
+
+![](image_88.jpg)
+
+![](image_89.jpg)
+
+### Our first model in Tensorflow
+
+![](image_90.jpg)
+
+![](image_91.jpg)
+
+![](image_92.jpg)
+
+![](image_93.jpg)
+
+![](image_94.jpg)
+
+![](image_95.jpg)
+
+![](image_96.jpg)
+
+![](image_97.jpg)
+
+![](image_98.jpg)
+
+![](image_99.jpg)
+
+![](image_100.jpg)
+
+![](image_101.jpg)
+
+![](image_102.jpg)
+
+![](image_103.jpg)
+
+## An easier framework
+
+[Tutorial](https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html)
+
+## Philosophy of DL
+### What Deep Learning is and is not
+
+![](image_104.jpg)
+
+![](image_105.jpg)
+
+![](image_106.jpg)
+
+![](image_107.jpg)
+
+![](image_108.jpg)
+
+![](image_109.jpg)
+
+![](image_110.jpg)
+
+![](image_111.jpg)
+
+![](image_112.jpg)
+
+![](image_113.jpg)
+
+![](image_114.jpg)
+
+![](image_115.jpg)
+
+![](image_116.jpg)
+
+![](image_117.jpg)
+
+![](image_118.jpg)
+
+### Deep Learning as a language
+
+![](image_119.jpg)
+
+![](image_120.jpg)
+
+![](image_121.jpg)
+
+![](image_122.jpg)
+
+![](image_123.jpg)
