@@ -1,0 +1,3 @@
+[submodule "intro-to-dl"]
+	path = intro-to-dl
+	url = https://github.com/hse-aml/intro-to-dl.git
