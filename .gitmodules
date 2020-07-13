@@ -1,0 +1,3 @@
+[submodule "intro-to-dl"]
+	path = intro-to-dl
+	url = git@github.com:jandvanegas/intro-to-dl.git
