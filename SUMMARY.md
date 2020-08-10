@@ -9,4 +9,5 @@
 
 ## How to win a Data Science competition
 * [Week 1](how-to-win-a-ds-competition/week1/week1.md)
+* [Week 2](how-to-win-a-ds-competition/week2/week2.md)
 
