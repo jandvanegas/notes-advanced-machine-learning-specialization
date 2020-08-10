@@ -1,3 +1,9 @@
 [submodule "intro-to-dl"]
 	path = intro-to-dl
 	url = git@github.com:jandvanegas/intro-to-dl.git
+[submodule "how-to-win-a-ds-competition/Advance-Machine-Learning"]
+	path = how-to-win-a-ds-competition/Advance-Machine-Learning
+	url = git@github.com:jandvanegas/Advance-Machine-Learning.git
+[submodule "how-to-win-a-ds-competition/competitive-data-science"]
+	path = how-to-win-a-ds-competition/competitive-data-science
+	url = git@github.com:jandvanegas/competitive-data-science.git
