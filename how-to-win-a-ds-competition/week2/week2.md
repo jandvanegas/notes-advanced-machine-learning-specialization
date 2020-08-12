@@ -82,4 +82,26 @@
 #### Reading material
 [Notebook](https://github.com/jandvanegas/notes-advanced-machine-learning-specialization/blob/master/how-to-win-a-ds-competition/week2/EDA_video2.slides.html)
 
+### Exploring anonymized data
 
+![](image_38.jpg)
+
+![](image_39.jpg)
+
+![](image_40.jpg)
+
+![](image_41.jpg)
+
+![](image_42.jpg)
+
+![](image_43.jpg)
+
+![](image_44.jpg)
+
+![](image_45.jpg)
+
+![](image_46.jpg)
+
+![](image_47.jpg)
+
+![](image_48.jpg)
