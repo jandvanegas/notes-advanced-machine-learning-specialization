@@ -105,3 +105,93 @@
 ![](image_47.jpg)
 
 ![](image_48.jpg)
+
+### Visualizations
+
+
+![](image_49.jpg)
+
+![](image_50.jpg)
+
+![](image_51.jpg)
+
+![](image_52.jpg)
+
+![](image_53.jpg)
+
+![](image_54.jpg)
+
+![](image_55.jpg)
+
+![](image_56.jpg)
+
+![](image_57.jpg)
+
+![](image_58.jpg)
+
+![](image_59.jpg)
+
+![](image_60.jpg)
+
+![](image_61.jpg)
+
+![](image_62.jpg)
+
+![](image_63.jpg)
+
+![](image_64.jpg)
+
+![](image_65.jpg)
+
+![](image_66.jpg)
+
+![](image_67.jpg)
+
+![](image_68.jpg)
+
+![](image_69.jpg)
+
+![](image_70.jpg)
+
+![](image_71.jpg)
+
+![](image_72.jpg)
+
+![](image_73.jpg)
+
+### Dataset cleaning and other things to check
+
+![](image_74.jpg)
+
+![](image_75.jpg)
+
+![](image_76.jpg)
+
+![](image_77.jpg)
+
+![](image_78.jpg)
+
+![](image_79.jpg)
+
+![](image_80.jpg)
+
+![](image_81.jpg)
+
+![](image_82.jpg)
+
+![](image_83.jpg)
+
+![](image_84.jpg)
+
+### Additional material
+#### Visualization tools
+
+* https://seaborn.pydata.org/
+* https://plot.ly/python/
+* https://github.com/bokeh/bokeh
+* http://ggplot.yhathq.com/
+* https://networkx.github.io/
+
+#### Others 
+* http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html
+
