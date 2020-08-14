@@ -1,202 +1,3 @@
-# Week 2
-## Exploratory Data Analysis
-### Exploratory Data Analysis
-
-![](image_1.jpg)
-
-![](image_2.jpg)
-
-![](image_3.jpg)
-
-![](image_4.jpg)
-
-![](image_5.jpg)
-
-![](image_6.jpg)
-
-![](image_7.jpg)
-
-![](image_8.jpg)
-
-![](image_9.jpg)
-
-![](image_10.jpg)
-
-![](image_11.jpg)
-
-![](image_12.jpg)
-
-![](image_13.jpg)
-
-![](image_14.jpg)
-
-![](image_15.jpg)
-
-![](image_16.jpg)
-
-![](image_17.jpg)
-
-![](image_18.jpg)
-
-![](image_19.jpg)
-
-### Building intuition about the data
-
-
-![](image_20.jpg)
-
-![](image_21.jpg)
-
-![](image_22.jpg)
-
-![](image_23.jpg)
-
-![](image_24.jpg)
-
-![](image_25.jpg)
-
-![](image_26.jpg)
-
-![](image_27.jpg)
-
-![](image_28.jpg)
-
-![](image_29.jpg)
-
-![](image_30.jpg)
-
-![](image_31.jpg)
-
-![](image_32.jpg)
-
-![](image_33.jpg)
-
-![](image_34.jpg)
-
-![](image_35.jpg)
-
-![](image_36.jpg)
-
-![](image_37.jpg)
-
-#### Reading material
-[Notebook](https://github.com/jandvanegas/notes-advanced-machine-learning-specialization/blob/master/how-to-win-a-ds-competition/week2/EDA_video2.slides.html)
-
-### Exploring anonymized data
-
-![](image_38.jpg)
-
-![](image_39.jpg)
-
-![](image_40.jpg)
-
-![](image_41.jpg)
-
-![](image_42.jpg)
-
-![](image_43.jpg)
-
-![](image_44.jpg)
-
-![](image_45.jpg)
-
-![](image_46.jpg)
-
-![](image_47.jpg)
-
-![](image_48.jpg)
-
-### Visualizations
-
-
-![](image_49.jpg)
-
-![](image_50.jpg)
-
-![](image_51.jpg)
-
-![](image_52.jpg)
-
-![](image_53.jpg)
-
-![](image_54.jpg)
-
-![](image_55.jpg)
-
-![](image_56.jpg)
-
-![](image_57.jpg)
-
-![](image_58.jpg)
-
-![](image_59.jpg)
-
-![](image_60.jpg)
-
-![](image_61.jpg)
-
-![](image_62.jpg)
-
-![](image_63.jpg)
-
-![](image_64.jpg)
-
-![](image_65.jpg)
-
-![](image_66.jpg)
-
-![](image_67.jpg)
-
-![](image_68.jpg)
-
-![](image_69.jpg)
-
-![](image_70.jpg)
-
-![](image_71.jpg)
-
-![](image_72.jpg)
-
-![](image_73.jpg)
-
-### Dataset cleaning and other things to check
-
-![](image_74.jpg)
-
-![](image_75.jpg)
-
-![](image_76.jpg)
-
-![](image_77.jpg)
-
-![](image_78.jpg)
-
-![](image_79.jpg)
-
-![](image_80.jpg)
-
-![](image_81.jpg)
-
-![](image_82.jpg)
-
-![](image_83.jpg)
-
-![](image_84.jpg)
-
-### Additional material
-#### Visualization tools
-
-* https://seaborn.pydata.org/
-* https://plot.ly/python/
-* https://github.com/bokeh/bokeh
-* http://ggplot.yhathq.com/
-* https://networkx.github.io/
-
-#### Others 
-* http://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html
-
-## EDA examples
-### EDA Notebook
 
 This is a notebook, used in the screencast video. Note, that the data files are not present here in Jupyter hub and you will not be able to run it. But you can always download the notebook to your local machine as well as the competition data and make it interactive. Competition data can be found here: https://www.kaggle.com/c/springleaf-marketing-response/data
 
@@ -261,7 +62,7 @@ def hist_it1(feat):
     plt.ylim((0,1))
 ```
 
-### Read the data
+# Read the data
 
 
 ```python
@@ -275,7 +76,7 @@ test = pd.read_csv('test.csv.zip')
 test_ID = test.ID
 ```
 
-### Data overview
+# Data overview
 
 Probably the first thing you check is the shapes of the train and test matrices and look inside them.
 
@@ -651,7 +452,7 @@ It is also useful to know if there are any NaNs in the data. You should pay atte
 
 
 ```python
-### Number of NaNs for each object
+# Number of NaNs for each object
 train.isnull().sum(axis=1).head(15)
 ```
 
@@ -679,7 +480,7 @@ train.isnull().sum(axis=1).head(15)
 
 
 ```python
-### Number of NaNs for each column
+# Number of NaNs for each column
 train.isnull().sum(axis=0).head(15)
 ```
 
@@ -707,9 +508,9 @@ train.isnull().sum(axis=0).head(15)
 
 Just by reviewing the head of the lists we immediately see the patterns, exactly 56 NaNs for a set of variables, and 24 NaNs for objects. 
 
-### Dataset cleaning
+# Dataset cleaning
 
-#### Remove constant features
+### Remove constant features
 
 All 1932 columns are anonimized which makes us to deduce the meaning of the features ourselves. We will now try to clean the dataset. 
 
@@ -764,7 +565,7 @@ traintest.drop(constant_features,axis = 1,inplace=True)
     ['VAR_0207', 'VAR_0213', 'VAR_0840', 'VAR_0847', 'VAR_1428']
 
 
-#### Remove duplicated features
+### Remove duplicated features
 
 Fill NaNs with something we can find later if needed.
 
@@ -897,7 +698,7 @@ Drop from traintest.
 traintest.drop(dup_cols.keys(), axis = 1,inplace=True)
 ```
 
-### Determine types
+# Determine types
 
 Let's examine the number of unique values.
 
@@ -1805,7 +1606,7 @@ cat_cols = list(train.select_dtypes(include=['object']).columns)
 num_cols = list(train.select_dtypes(exclude=['object']).columns)
 ```
 
-### Go through
+# Go through
 
 Let's replace NaNs with something first.
 
@@ -1831,7 +1632,7 @@ gt_matrix(feats,16)
 
 Indeed, we see interesting patterns here. There are blocks of geatures where one is strictly greater than the other. So we can hypothesize, that each column correspondes to cumulative counts, e.g. feature number one is counts in first month, second -- total count number in first two month and so on. So we immediately understand what features we should generate to make tree-based models more efficient: the differences between consecutive values.
 
-#### VAR_0002, VAR_0003 
+## VAR_0002, VAR_0003 
 
 
 ```python
@@ -2007,7 +1808,7 @@ train['VAR_0003'].value_counts()
 
 We see there is something special about 12, 24 and so on, sowe can create another feature x mod 12. 
 
-#### VAR_0004
+## VAR_0004
 
 
 ```python
@@ -2027,7 +1828,7 @@ plt.ylim((0,0.6))
 ![png](output_65_1.png)
 
 
-### Categorical features
+# Categorical features
 
 Let's take a look at categorical features we have.
 
@@ -2514,4 +2315,3 @@ sc2(train.loc[mask,c1].values,train.loc[mask,c2].values,c=train.loc[mask,'target
 
 
 We see that one date is strictly greater than the other, so the difference between them can be a good feature. Also look at horizontal line there -- it also looks like NaN, so I would rather create a new binary feature which will serve as an idicator that our time feature is NaN.
-
