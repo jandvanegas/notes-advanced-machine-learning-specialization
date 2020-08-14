@@ -2515,7 +2515,7 @@ sc2(train.loc[mask,c1].values,train.loc[mask,c2].values,c=train.loc[mask,'target
 
 We see that one date is strictly greater than the other, so the difference between them can be a good feature. Also look at horizontal line there -- it also looks like NaN, so I would rather create a new binary feature which will serve as an idicator that our time feature is NaN.
 
-### Numerical competition EDA
+### Numerai competition EDA
 
 ![](image_85.jpg)
 
