@@ -984,7 +984,7 @@ _ = plt.hist(nunique.astype(float)/train.shape[0], bins=100)
 ```
 
 
-![png](output_44_0.png)
+![](output_44_0.png)
 
 
 Let's take a looks at the features with a huge number of unique values:
@@ -1826,7 +1826,7 @@ gt_matrix(feats,16)
 ```
 
 
-![png](output_57_0.png)
+![](output_57_0.png)
 
 
 Indeed, we see interesting patterns here. There are blocks of geatures where one is strictly greater than the other. So we can hypothesize, that each column correspondes to cumulative counts, e.g. feature number one is counts in first month, second -- total count number in first two month and so on. So we immediately understand what features we should generate to make tree-based models more efficient: the differences between consecutive values.
@@ -1852,11 +1852,11 @@ plt.xlim((-10,1010))
 
 
 
-![png](output_60_1.png)
+![](output_60_1.png)
 
 
 
-![png](output_60_2.png)
+![](output_60_2.png)
 
 
 
@@ -2024,7 +2024,7 @@ plt.ylim((0,0.6))
 
 
 
-![png](output_65_1.png)
+![](output_65_1.png)
 
 
 ### Categorical features
@@ -2510,7 +2510,7 @@ sc2(train.loc[mask,c1].values,train.loc[mask,c2].values,c=train.loc[mask,'target
 ```
 
 
-![png](output_71_0.png)
+![](output_71_0.png)
 
 
 We see that one date is strictly greater than the other, so the difference between them can be a good feature. Also look at horizontal line there -- it also looks like NaN, so I would rather create a new binary feature which will serve as an idicator that our time feature is NaN.
