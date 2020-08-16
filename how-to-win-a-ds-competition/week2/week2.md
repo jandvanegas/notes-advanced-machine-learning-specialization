@@ -2532,3 +2532,177 @@ We see that one date is strictly greater than the other, so the difference betwe
 ![](image_91.jpg)
 
 ![](image_92.jpg)
+
+## Validation
+### VAlidation and overfitting
+
+![](image_93.jpg)
+
+![](image_94.jpg)
+
+![](image_95.jpg)
+
+![](image_96.jpg)
+
+![](image_97.jpg)
+
+![](image_98.jpg)
+
+![](image_99.jpg)
+
+![](image_100.jpg)
+
+![](image_101.jpg)
+
+![](image_102.jpg)
+
+![](image_103.jpg)
+
+![](image_104.jpg)
+
+![](image_105.jpg)
+
+![](image_106.jpg)
+
+### Validation strategies
+
+![](image_107.jpg)
+
+![](image_108.jpg)
+
+![](image_109.jpg)
+
+![](image_110.jpg)
+
+![](image_111.jpg)
+
+![](image_112.jpg)
+
+![](image_113.jpg)
+
+![](image_114.jpg)
+
+![](image_115.jpg)
+
+![](image_116.jpg)
+
+### Validation Strategies
+
+The main rule you should know — never use data you train on to measure the quality of your model. The trick is to split all your data into training and validation parts.
+
+Below you will find several ways to validate a model.
+
+#### a) Holdout scheme:
+
+* Split train data into two parts: partA and partB.
+* Fit the model on partA, predict for partB.
+* Use predictions for partB for estimating model quality. Find such hyper-parameters, that quality on partB is maximized.
+
+#### b) K-Fold scheme:
+
+* Split train data into K folds.
+* Iterate though each fold: retrain the model on all folds except current fold, predict for the current fold.
+* Use the predictions to calculate quality on each fold. Find such hyper-parameters, that quality on each fold is maximized. You can also estimate mean and variance of the loss. This is very helpful in order to understand significance of improvement.
+
+#### c) LOO (Leave-One-Out) scheme:
+
+* Iterate over samples: retrain the model on all samples except current sample, predict for the current sample. You will need to retrain the model N times (if N is the number of samples in the dataset).
+* In the end you will get LOO predictions for every sample in the trainset and can calculate loss.
+
+Notice, that these are validation schemes are supposed to be used to estimate quality of the model. When you found the right hyper-parameters and want to get test predictions don't forget to retrain your model using all training data.
+
+### Data spliting strategies
+
+![](image_117.jpg)
+
+![](image_118.jpg)
+
+![](image_119.jpg)
+
+![](image_120.jpg)
+
+![](image_121.jpg)
+
+![](image_122.jpg)
+
+![](image_123.jpg)
+
+![](image_124.jpg)
+
+![](image_125.jpg)
+
+![](image_126.jpg)
+
+![](image_127.jpg)
+
+![](image_128.jpg)
+
+![](image_129.jpg)
+
+![](image_130.jpg)
+
+![](image_131.jpg)
+
+![](image_132.jpg)
+
+![](image_133.jpg)
+
+#### Common Validation Problems
+
+![](image_134.jpg)
+
+![](image_135.jpg)
+
+![](image_136.jpg)
+
+![](image_137.jpg)
+
+![](image_138.jpg)
+
+![](image_139.jpg)
+
+![](image_140.jpg)
+
+![](image_141.jpg)
+
+![](image_142.jpg)
+
+![](image_143.jpg)
+
+![](image_144.jpg)
+
+![](image_145.jpg)
+
+![](image_146.jpg)
+
+![](image_147.jpg)
+
+![](image_148.jpg)
+
+![](image_149.jpg)
+
+![](image_150.jpg)
+
+![](image_151.jpg)
+
+![](image_152.jpg)
+
+![](image_153.jpg)
+
+![](image_154.jpg)
+
+![](image_155.jpg)
+
+![](image_156.jpg)
+
+![](image_157.jpg)
+
+![](image_158.jpg)
+
+![](image_159.jpg)
+
+![](image_160.jpg)
+
+### Additional material and links 
+* http://scikit-learn.org/stable/modules/cross_validation.html
+* http://www.chioka.in/how-to-select-your-final-models-in-a-kaggle-competitio/
