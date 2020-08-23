@@ -2706,3 +2706,67 @@ Notice, that these are validation schemes are supposed to be used to estimate qu
 ### Additional material and links 
 * http://scikit-learn.org/stable/modules/cross_validation.html
 * http://www.chioka.in/how-to-select-your-final-models-in-a-kaggle-competitio/
+
+## Data leakages
+### Basic data leaks
+
+![](image_161.jpg)
+
+![](image_162.jpg)
+
+![](image_163.jpg)
+
+![](image_164.jpg)
+
+![](image_165.jpg)
+
+### Leaderboard probing and examples or rare data leaks
+
+![](image_166.jpg)
+
+![](image_167.jpg)
+
+![](image_168.jpg)
+
+![](image_169.jpg)
+
+![](image_170.jpg)
+
+![](image_171.jpg)
+
+![](image_172.jpg)
+
+![](image_173.jpg)
+
+![](image_174.jpg)
+
+### Expedia challenge
+
+![](image_166.jpg)
+
+![](image_167.jpg)
+
+![](image_168.jpg)
+
+![](image_169.jpg)
+
+![](image_170.jpg)
+
+![](image_171.jpg)
+
+![](image_172.jpg)
+
+![](image_173.jpg)
+
+![](image_174.jpg)
+
+![](image_175.jpg)
+
+![](image_176.jpg)
+
+### Additional material and links
+* https://www.kaggle.com/olegtrott/the-perfect-score-script
+* https://www.kaggle.com/docs/competitions#leakage
+* https://www.kaggle.com/dansbecker/data-leakage
+
+
