@@ -289,3 +289,17 @@
 
 ![](image_136.jpg)
 
+### Additional material and links 
+#### Classification
+* http://queirozf.com/entries/evaluation-metrics-for-classification-quick-examples-references
+* https://www.garysieling.com/blog/sklearn-gini-vs-entropy-criteria
+* http://www.navan.name/roc/
+#### Ranking
+* http://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf
+* https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf
+* https://sourceforge.net/p/lemur/wiki/RankLib/
+* https://wellecks.wordpress.com/2015/01/15/learning-to-rank-overview
+#### Clustering
+* http://nlp.uned.es/docs/amigo2007a.pdf
+
+## Mean encodings
