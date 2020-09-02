@@ -303,3 +303,61 @@
 * http://nlp.uned.es/docs/amigo2007a.pdf
 
 ## Mean encodings
+### Concept of mean encoding
+
+![](image_137.jpg)
+
+![](image_138.jpg)
+
+![](image_139.jpg)
+
+![](image_140.jpg)
+
+![](image_141.jpg)
+
+![](image_142.jpg)
+
+![](image_143.jpg)
+
+![](image_144.jpg)
+
+![](image_145.jpg)
+
+![](image_146.jpg)
+
+### Regularization
+
+![](image_147.jpg)
+
+![](image_148.jpg)
+
+![](image_149.jpg)
+
+![](image_150.jpg)
+
+![](image_151.jpg)
+
+![](image_152.jpg)
+
+![](image_153.jpg)
+
+![](image_154.jpg)
+
+### Extensions and generalization
+
+
+![](image_155.jpg)
+
+![](image_156.jpg)
+
+![](image_157.jpg)
+
+![](image_158.jpg)
+
+![](image_159.jpg)
+
+![](image_160.jpg)
+
+![](image_161.jpg)
+
+![](image_162.jpg)
